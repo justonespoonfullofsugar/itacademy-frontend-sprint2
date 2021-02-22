@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.fondo{
+    height: 100%;
+}
+
+.cabecera {
+    background-color:white;
+}
+
+.logo {
+    background-image: url("img/imgramen.PNG");
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-color: black;
+}
+
+.main {
+    background-image: url("img/mesanavidad.PNG");
+    opacity:0.9;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.main::after{
+    opacity:1;
+
+}
+
+.comidas {
+    margin-top: 65px;
+}
+
+.menjars {
+    margin-top: 90px;
+}
